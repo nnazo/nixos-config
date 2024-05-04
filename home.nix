@@ -66,7 +66,6 @@
       # util
       usbutils
       ripgrep
-      zoxide
       _1password-gui
     ];
 
@@ -168,6 +167,10 @@
           };
         }
       ];
+    };
+    zoxide = {
+      enable = true;
+      enableZshIntegration = true;
     };
 
     konsole = {
