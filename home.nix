@@ -32,9 +32,10 @@
       dbeaver
       postman
       wget
-      fnm # node version manager
       gnumake
       zig
+      nodejs
+      yarn
       
       # browsers
       firefox-devedition-bin
@@ -68,6 +69,10 @@
       ripgrep
       _1password-gui
     ];
+
+    # packages = with pkgs-node11; [
+    #   nodejs_11_x
+    # ];
 
     file."bin/git-push-to-target" = {
       source = ./config/git-push-to-target;
