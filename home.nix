@@ -134,6 +134,9 @@
     };
     zsh = {
       enable = true;
+      shellAliases = {
+        cd = "z $@";
+      };
       oh-my-zsh = {
         enable = true;
         theme = "robbyrussell";
@@ -176,6 +179,13 @@
     zoxide = {
       enable = true;
       enableZshIntegration = true;
+    };
+    fzf = {
+      enable = true;
+      enableZshIntegration = true;
+      tmux = {
+        enableShellIntegration = true;
+      };
     };
 
     konsole = {
