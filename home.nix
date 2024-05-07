@@ -68,6 +68,7 @@
       usbutils
       ripgrep
       _1password-gui
+      xclip
     ];
 
     # packages = with pkgs-node11; [
